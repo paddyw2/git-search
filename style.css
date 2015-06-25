@@ -1,3 +1,99 @@
+
+#output3 {
+      text-align: center;
+    padding-top: 20vh;
+    height: 200px;
+}
 #output3 img {
  border-radius: 50%;
+   width: 200px;
+   
+}
+
+.welcome p {
+    padding: 10px;
+}
+p, h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding-top: 38vh;
+    transition: aa .25s cubic-bezier(0.68, 0.26, 0, 0.46);
+}
+.menu {
+    display: none;
+}
+
+.display {
+    opacity: 0;
+    transition: all .75s cubic-bezier(0.68, 0.26, 0, 0.46);
+}
+
+.slideUp {
+    padding-top: 0;
+}
+
+.fadeIn {
+    opacity: 1;
+}
+.show {
+    display: block;
+}
+
+form {
+    width: 231px;
+    margin: auto;
+}
+
+input[type='text'] {
+      border-radius: 2px;
+  height: 32px;
+    border: 1px solid #D8D8D8;
+}
+
+
+input[type='submit'] {
+      height: 32px;
+  background-color: rgba(255,255,255,0);
+  border: 1px solid #D8D8D8;
+  border-radius: 2px;
+  font-family: 'roboto';
+  font-weight: 300;
+    color: #7E7E7E;
+    cursor: pointer;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'roboto';
+    text-align: center;
+    color: #333;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: #333;
+}
+
+/* visited link */
+a:visited {
+    color: #333;
+}
+
+/* mouse over link */
+a:hover {
+    color: #333;
+}
+
+/* selected link */
+a:active {
+    color: #333;
 }
